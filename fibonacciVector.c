@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int vector[61];
+    unsigned long vector[61];
     vector[0]=0;
     vector[1]=1;
     
@@ -14,7 +14,7 @@ int main() {
     for(int i = 0; i<n; i++){
         int num;
         scanf("%d", &num);
-        printf("Fib(%d) = %d\n", num, vector[num]);
+        printf("Fib(%d) = %lu \n", num, vector[num]);
     }
     
     return 0;
