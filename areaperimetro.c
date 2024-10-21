@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
     int raio;
-    float pi = 3.14159;
+    float pi  = 3.14159;
 
     scanf("%d", &raio);
 
