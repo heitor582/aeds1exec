@@ -131,19 +131,7 @@ void deletePizzaByFlavor(char flavor[]){
     free(pizzas);
 }
 
-// void deletePizzaById(int id) {
-
-// }
 // void updatePizza(Pizza pizza) {
-
-// }
-// Pizza getPizzaById(int id) {
-
-// }
-// int getLastPizzaId(){
-
-// }
-// Pizza* searchPizzaByFlavor(char flavor[]){
 
 // }
 

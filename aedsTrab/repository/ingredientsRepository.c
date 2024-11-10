@@ -77,7 +77,6 @@ void deleteIngredientByName(char name[]){
     free(ingredients);
 }
 
-
 Ingredient* getAllIngredients(int* count) {
     FILE *f;
     f = fopen(INGREDIENTS_FILE_NAME, "r");
